@@ -1,0 +1,16 @@
+# Ignorar la carpeta de compilación de Java
+/target
+*.class
+*.jar
+
+# Archivos y carpetas de IntelliJ
+.idea/
+*.iml
+
+# Archivos de log
+*.log
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+

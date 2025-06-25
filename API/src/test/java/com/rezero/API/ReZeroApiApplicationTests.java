@@ -1,0 +1,13 @@
+package com.rezero.API;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class ReZeroApiApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
