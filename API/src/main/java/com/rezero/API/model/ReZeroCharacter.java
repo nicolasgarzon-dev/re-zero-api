@@ -11,11 +11,13 @@ public class ReZeroCharacter {
     private Ability ability;
     private Faction faction;
     private Season season;
+    private String imageUrl;
 
-    public ReZeroCharacter(String name, Ability ability, Faction faction, Season season){
+    public ReZeroCharacter(String name, Ability ability, Faction faction, Season season, String imageUrl){
         this.name = name;
         this.ability = ability;
         this.faction = faction;
         this.season = season;
+        this.imageUrl = imageUrl;
     }
 }
