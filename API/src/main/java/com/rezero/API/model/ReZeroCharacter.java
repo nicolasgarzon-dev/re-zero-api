@@ -1,23 +1,15 @@
 package com.rezero.API.model;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.List;
+
 @Data
 @NoArgsConstructor
-
+@AllArgsConstructor
 public class ReZeroCharacter {
-    private String name;
-    private Ability ability;
-    private Faction faction;
-    private Season season;
-    private String imageUrl;
-
-    public ReZeroCharacter(String name, Ability ability, Faction faction, Season season, String imageUrl){
-        this.name = name;
-        this.ability = ability;
-        this.faction = faction;
-        this.season = season;
-        this.imageUrl = imageUrl;
-    }
+        private String name;
+        private List<SeasonData> seasons;
 }

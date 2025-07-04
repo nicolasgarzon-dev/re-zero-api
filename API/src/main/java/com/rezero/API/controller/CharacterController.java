@@ -21,8 +21,8 @@ public class CharacterController {
     }
 
     @GetMapping("/getAll")
-    public List<ReZeroCharacter> getAllCharacters() {
-        return characterRepository.getAllCharacters();  // De aqui salen los personajes, desde el repositorio
+    public ResponseEntity<List<ReZeroCharacter>> getAllCharacters() {
+        return ResponseEntity.ok (characterRepository.getAllCharacters());  // De aqui salen los personajes, desde el repositorio
     }
     @GetMapping("/getByName/{name}")
     public ResponseEntity<ReZeroCharacter> getCharacterByName(@PathVariable String name) {
