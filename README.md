@@ -28,4 +28,4 @@ Una API REST en Java para explorar el universo de Re:Zero. Contiene personajes, 
 3. Ejecuta `ReZeroApiApplication`.
 
 ---
-Hecho con ❤️ por [Nicolas](https://github.com/Nickman054)
+Hecho por [Nicolas](https://github.com/Nickman054)
